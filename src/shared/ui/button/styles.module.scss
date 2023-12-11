@@ -1,0 +1,16 @@
+.button {
+    @apply flex items-center justify-center gap-2 p-[8px_10px] rounded-[5px] text-base;
+
+
+    &__outline {
+        @apply border text-[#000];
+    }
+
+    &__primary {
+        @apply border border-[#06d] bg-[#06d] text-[#fff];
+    }
+
+    &__danger {
+        @apply border border-[red] bg-[red] text-[#fff];
+    }
+}

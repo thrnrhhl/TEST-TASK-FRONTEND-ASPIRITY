@@ -1,0 +1,11 @@
+.home_page {
+    @apply container min-h-screen p-[16px] m-auto flex flex-col;
+
+    &__btn_group {
+        @apply flex items-center gap-[10px] my-[15px];
+
+        &__flex_1 {
+            @apply flex-1;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.task_item {
+    @apply border p-[10px] gap-[10px] cursor-pointer shadow rounded-[5px];
+
+    &__wrapper {
+        @apply flex items-center;
+    }
+
+    &__textarea {
+        @apply flex-1 border outline-none rounded-[5px] p-[5px] mx-[5px];
+    }
+
+    &__icon {
+        @apply flex-shrink-0 w-5 h-5;
+    }
+
+    &__text {
+        @apply flex-1 p-[5px] whitespace-break-spaces;
+    }
+}

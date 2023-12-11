@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    /* @apply font-['Unbounded'] */
+}
+
+.dialog__overlay {
+    @apply bg-black opacity-[.16] w-full h-full fixed inset-0 z-[50];
+}
+
+.dialog__content {
+    @apply fixed top-[50%] left-[50%] bg-[#fff] z-[999] w-[calc(100%-16px)] md:w-[373px] px-[16px] pb-[8px] translate-x-[-50%] translate-y-[-50%] rounded-[10px] p-[16px];
+}
+
+.dialog__close {
+    @apply absolute top-0 right-0;
+}

@@ -1,0 +1,14 @@
+.add_task {
+    
+    &__textarea {
+        @apply w-full border p-[10px] max-h-[250px] overflow-auto rounded-[5px];
+    }
+
+    &__submit {
+        @apply w-full mt-[10px];
+    }
+
+    &__w_5_h_5 {
+        @apply w-5 h-5;
+    }
+}
