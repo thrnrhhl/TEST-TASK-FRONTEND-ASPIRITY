@@ -5,7 +5,7 @@ import { ApiResponse, IAddTask, IAddTaskForm, IGetTasks } from "./model";
 export const api = createApi({
     reducerPath: 'api',
     baseQuery: fetchBaseQuery({
-        baseUrl: 'http://localhost:1234'
+        baseUrl: 'https://test-task-backend-for-deploy-aspirity.vercel.app'
     }),
     tagTypes: ['Task'],
     endpoints: (builder) => ({

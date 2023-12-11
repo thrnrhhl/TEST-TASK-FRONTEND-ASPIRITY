@@ -7,7 +7,6 @@ import { useDispatch } from "react-redux";
 import { selectTask } from "@/src/entities/task/model";
 import styles from './styles.module.scss';
 import moment from "moment";
-
 interface Props extends Task {
     checked: boolean;
 };
